@@ -1,0 +1,145 @@
+/*
+     Autohr: Moeez Abdul;
+     Theme: Bat order website admin;
+     Version: 10.0;
+*/
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+     /*border: 1px solid black;*/ /* Borders Removed from Menu / Main Content / Footer*/
+     padding: 1%;
+     width: 80%;
+     margin: 0 auto;
+}
+/* Can be used to Align Text to Center -  Custom Class */
+.text-center{
+     text-align: center;
+}
+
+.clearfix{
+     float: none;
+     clear: both;
+}
+
+.tbl-full{
+     width: 100%;
+}
+
+.tbl-30{
+     width: 30%;
+}
+
+table tr th{
+     border-bottom: 1px solid black;
+     padding: 1%;
+     text-align: left;
+}
+
+table tr td{
+     padding: 1%;
+}
+
+.btn-primary{
+     background-color: #9980FA;
+     padding: 1%;
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+.btn-primary:hover{
+     background-color: #0652DD;
+}
+
+.btn-secondary{
+     background-color: #C4E538;
+     padding: 1%;
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+.btn-secondary:hover{
+     background-color: #FFC312;
+}
+
+.btn-danger{
+     background-color: #EE5A24;
+     padding: 1%;
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+.btn-danger:hover{
+     background-color: #EA2027;
+}
+
+.success{
+     color: #009432;
+}
+
+.error{
+     color: #EA2027;
+}
+
+/* CSS for Menu */
+.menu{
+     border-bottom: 1px solid black;
+}
+.menu ul{
+     list-style-type: none;
+}
+.menu ul li{
+     display: inline;
+     padding: 1%;
+}
+.menu ul li a{
+     text-decoration: none;
+     font-weight: bold;
+     color: #1B1464;
+}
+.menu ul li a:hover{
+     color: #0652DD;
+}
+
+/* CSS for Main Content */
+.main-content{
+      /*margin: 1% 0;*/ /*Margin removed so there is not empty white spaced beetween each section*/
+      background-color: #FDA7DF;
+      padding: 3% 0;
+}
+
+.col-4{
+     width: 18%;
+     background-color: white;
+     margin: 1%;
+     padding: 2%;
+     float: left;
+}
+
+/* CSS for Footer */
+.footer{
+     background-color: #D980FA;
+     font-weight: bold;
+     color: #1B1464;
+}
+.footer p a{
+     text-decoration: none;
+}
+.footer p a:hover{
+     color: #0652DD;
+}
+
+/* CSS for Login */
+.login{
+     border: 1px solid grey;
+     width: 20%;
+     margin: 10% auto;
+     padding: 2%;
+}
